@@ -589,3 +589,18 @@ section {
     padding-right: 20px 15px;
   }
 }
+
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background:  transparent;
+  
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(0deg, rgb(0, 115, 255) 0%, rgb(0, 179, 255) 100%);;
+  border-radius: 10px;
+}
+
